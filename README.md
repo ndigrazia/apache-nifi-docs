@@ -362,6 +362,6 @@ See  nifi-custom-processors folder
 
 mvn install on nifi-custom-processor
 
-copy .nar file to <<nifi-root-folder>>\lib
+copy .nar file to \nifi-root-folder\lib (where nifi is installed)
 
 Choose the custom processor from canvas (similar to other in-built processor)
