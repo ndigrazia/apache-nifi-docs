@@ -353,3 +353,15 @@ nifi.cluster.flow.election.max.candidates=2
 
 
 Step 5: Restart All NiFi Nodes
+
+
+
+## Create a custom processor
+
+See  nifi-custom-processors folder
+
+mvn install on nifi-custom-processor
+
+copy .nar file to <nifi-root-folder>\lib
+
+Choose the custom processor from canvas (similar to other in-built processor)
